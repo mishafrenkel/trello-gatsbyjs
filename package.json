@@ -25,7 +25,7 @@
   "license": "MIT",
   "scripts": {
     "prebuild": "node icons",
-    "build": "gatsby build",
+    "build": "gatsby build && npm run prebuild",
     "start": "gatsby develop",
     "icons": "svgr --icon --replace-attr-values \"#959DA1=currentColor\" -d src/components/atoms/icon/icons src/assets",
     "preicons": "rm -rf src/components/atoms/icon/icons"
