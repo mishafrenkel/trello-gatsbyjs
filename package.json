@@ -10,7 +10,7 @@
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-styled-components": "next",
     "gatsby-source-filesystem": "^1.5.39",
-    "gatsby-transformer-remark": "^1.7.44",
+    "gatsby-transformer-remark": "^5.25.1",
     "lodash.debounce": "^4.0.8",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
